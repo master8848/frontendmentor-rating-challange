@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background: #141519;
+  color: #fdffff;
+  font-size: 1em;
+}
+h1 {
+  font-size: 1.3em;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22vh;
+}
+#form::before {
+  background-color: #25303a;
+  padding: 15px;
+  margin-bottom: 1.3em;
+  border-radius: 50%;
+  width: fit-content;
+  display: block;
+  content: url(./images/icon-star.svg);
+}
+p {
+  color: #8a919b;
+}
+.card {
+  background: #212832;
+  padding: 15px;
+  border-radius: 8px;
+
+  width: 350px;
+  max-width: 80vw;
+}
+.nums {
+  margin: 20px 0 15px 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.num {
+  box-sizing: border-box;
+  padding: 13px;
+  height: 48px;
+  width: 48px;
+  display: block;
+  justify-content: center;
+  align-content: center;
+
+  border-radius: 50%;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: #262e38;
+}
+.num:hover {
+  background: #fd7614;
+}
+.num:hover::before::after {
+  background: #7c8898;
+}
+.selected {
+  background: #7c8898;
+}
+.submit {
+  background: ffffff;
+  width: 96%;
+  margin: 2%;
+  box-sizing: border-box;
+  padding: 3%;
+  border-top-left-radius: 79px;
+  border-top-right-radius: 79px;
+  border-bottom-left-radius: 79px;
+  border-bottom-right-radius: 79px;
+  border: none;
+}
+.submit:hover {
+  background: #fd7614;
+}
+.preview {
+  text-align: center;
+}
+.rew::before {
+  content: url(./images/illustration-thank-you.svg);
+  margin: 10px;
+  display: block;
+}
+.review {
+  color: #fd7614;
+  background: #262f38;
+  padding: 10px;
+  border-top-left-radius: 82.5px;
+  border-top-right-radius: 82.5px;
+  border-bottom-left-radius: 82.5px;
+  border-bottom-right-radius: 82.5px;
+  margin: 10px;
+}
+.thanks {
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+}
+.hide {
+  display: none !important;
+}
+.attribution {
+  position: absolute;
+  font-size: 11px;
+  bottom: 2px;
+  width: 100%;
+}
+footer {
+  text-align: center;
+}
